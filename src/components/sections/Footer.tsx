@@ -40,19 +40,18 @@ export function Footer() {
           </div>
 
           <div className="md:col-span-4 lg:col-span-4">
-            <h4 className="text-sm font-bold uppercase tracking-wider text-slate-300 mb-6">Connect</h4>
-            <p className="text-slate-400 text-sm mb-4">Subscribe to our newsletter for luxury travel updates and offers.</p>
-            <form className="relative max-w-sm">
-              <input 
-                type="email" 
-                placeholder="Email address" 
-                className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg pl-4 pr-12 py-3 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition-colors"
-                required
-              />
-              <button type="submit" className="absolute right-2 top-2 bottom-2 bg-brand hover:bg-brand-hover text-heading p-2 rounded-md transition-colors flex items-center justify-center">
-                <Send className="w-4 h-4" />
-              </button>
-            </form>
+            <h4 className="text-sm font-bold uppercase tracking-wider text-slate-300 mb-6">Contact Us</h4>
+            <div className="space-y-3 mb-8">
+              <p className="text-slate-400 text-sm flex items-center gap-2"><span className="text-brand font-bold grow-0">📱</span> 7838747009</p>
+              <p className="text-slate-400 text-sm flex items-center gap-2"><span className="text-brand font-bold grow-0">🌐</span> aartitaxi.com</p>
+            </div>
+            
+            <h4 className="text-sm font-bold uppercase tracking-wider text-slate-300 mb-4">PAN-India Service</h4>
+            <div className="flex flex-wrap gap-2">
+              {['Delhi', 'Mumbai', 'Bangalore', 'Pune', 'Chandigarh', 'Jaipur', 'Agra', 'Ahmedabad', 'Chennai'].map(city => (
+                 <span key={city} className="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">{city}</span>
+              ))}
+            </div>
           </div>
           
         </div>

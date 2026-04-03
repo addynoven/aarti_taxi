@@ -19,8 +19,8 @@ export function Nav() {
           </div>
 
           <div className="hidden md:flex items-center">
-            <a href="tel:+1234567890" className="bg-brand hover:bg-brand-hover text-white font-semibold py-2.5 px-6 rounded-md shadow-sm transition-all duration-200 ease-in-out transform hover:-translate-y-0.5">
-              Call +1 234 567 890
+            <a href="tel:+917838747009" className="bg-brand hover:bg-brand-hover text-white font-semibold py-2.5 px-6 rounded-md shadow-sm transition-all duration-200 ease-in-out transform hover:-translate-y-0.5">
+            Book Now
             </a>
           </div>
 

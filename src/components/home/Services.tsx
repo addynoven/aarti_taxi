@@ -21,9 +21,9 @@ export function Services() {
       image: "/images/service_airport.png"
     },
     {
-      title: "Corporate Travel",
-      description: "Premium fleet management for business professionals with automated invoicing.",
-      image: "/images/service_corporate.png"
+      title: "Outstation",
+      description: "Comfortable and safe intercity rides. Premium cars and verified drivers for your out-of-town journeys.",
+      image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80"
     }
   ];
 
@@ -52,11 +52,10 @@ export function Services() {
               className="group relative rounded-2xl overflow-hidden h-96 shadow-lg shadow-slate-200/50 cursor-pointer"
             >
               <div className="absolute inset-0 w-full h-full">
-                <Image 
+                <img 
                   src={service.image} 
                   alt={service.title}
-                  fill
-                  className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
                 />
               </div>
               <div className="absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex flex-col justify-end p-6">

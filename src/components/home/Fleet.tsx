@@ -56,12 +56,12 @@ export function Fleet() {
           className="flex flex-col md:flex-row md:justify-between md:items-end mb-20"
         >
           <div className="max-w-2xl">
-            <h2 className="text-4xl font-bold text-heading mb-4">Our Fleet & Pricing</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#1A1A1A] tracking-tight mb-4">Our Fleet & Pricing</h2>
             <p className="text-lg text-slate-600">Choose from our meticulously maintained fleet. Precision-engineered for your safety and comfort.</p>
           </div>
           <div className="mt-8 md:mt-0 flex p-1.5 bg-slate-100 rounded-xl shadow-inner">
-            <button className="px-6 py-2.5 bg-white text-heading font-bold rounded-lg shadow-sm">All Inclusive</button>
-            <button className="px-6 py-2.5 text-slate-500 font-semibold hover:text-heading transition-colors">Pan India</button>
+            <button className="px-6 py-2.5 bg-white text-[#1A1A1A] font-bold rounded-lg shadow-sm">All Inclusive</button>
+            <button className="px-6 py-2.5 text-slate-500 font-semibold hover:text-[#1A1A1A] transition-colors">Pan India</button>
           </div>
         </motion.div>
 
@@ -100,7 +100,7 @@ export function Fleet() {
               
               <div className="p-8 flex flex-col flex-grow bg-white">
                 <div className="flex justify-between items-start mb-6">
-                  <h3 className="text-2xl font-bold text-heading">{car.name}</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#1A1A1A]">{car.name}</h3>
                   <div className="text-right bg-slate-50 px-3 py-1 rounded-lg">
                     <span className="text-xl font-black text-brand">{car.price}</span>
                   </div>

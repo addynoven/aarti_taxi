@@ -21,7 +21,7 @@ export function RouteHero() {
             Popular Intercity Route
           </div>
           
-          <h1 className="text-5xl lg:text-6xl font-extrabold text-[#1A1A1A] leading-[1.1] tracking-tight mb-4">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-[#1A1A1A] leading-[1.1] tracking-tight mb-4">
             Delhi to Jaipur<br/>
             <span className="text-[#926F34]">Taxi Service</span>
           </h1>

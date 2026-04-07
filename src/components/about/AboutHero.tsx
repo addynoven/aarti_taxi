@@ -5,7 +5,7 @@ export function AboutHero() {
         About Us
       </div>
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end gap-8">
-        <h1 className="text-5xl lg:text-6xl font-extrabold text-[#1A1A1A] max-w-2xl leading-tight tracking-tight">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-[#1A1A1A] max-w-2xl leading-tight tracking-tight">
           The Urban <span className="text-[#CA8A04]">Curator</span> of Indian Roads.
         </h1>
         <p className="text-slate-600 text-[1.05rem] font-medium leading-relaxed max-w-sm pb-2">

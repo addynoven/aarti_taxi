@@ -6,7 +6,7 @@ export function ContactHero() {
       <div className="inline-flex items-center gap-1.5 bg-green-100 text-green-700 font-extrabold px-3 py-1.5 rounded-full text-[0.65rem] mb-6 uppercase tracking-widest shadow-sm border border-green-200">
         <ShieldCheck className="w-3 h-3" /> We're here 24/7
       </div>
-      <h1 className="text-5xl lg:text-7xl font-extrabold text-[#1A1A1A] leading-[1.1] tracking-tight mb-8">
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-7xl font-extrabold text-[#1A1A1A] leading-[1.1] tracking-tight mb-8">
         Let's Get You <span className="text-[#926F34] block mt-1">Moving.</span>
       </h1>
       <p className="text-slate-600 text-[1.1rem] font-medium leading-relaxed max-w-sm mb-12">

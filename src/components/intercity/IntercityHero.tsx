@@ -20,7 +20,7 @@ export function IntercityHero() {
               PREMIUM INTERCITY TRAVEL
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] tracking-tight mb-6">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white leading-[1.1] tracking-tight mb-6">
               Outstation Taxi Service — <span className="text-[#CA8A04]">Reliable & Affordable</span> Rides Across India
             </h1>
             

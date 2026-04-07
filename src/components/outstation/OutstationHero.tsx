@@ -12,7 +12,7 @@ export function OutstationHero() {
               <Shield className="w-3 h-3" /> PAN-INDIA PREMIUM SERVICE
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-extrabold text-[#1A1A1A] leading-[1.1] tracking-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-[#1A1A1A] leading-[1.1] tracking-tight mb-6">
               India's Trusted Outstation Taxi Service for Groups & Families
             </h1>
             

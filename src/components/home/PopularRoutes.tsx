@@ -3,22 +3,22 @@ export function PopularRoutes() {
     {
       title: "Delhi to Jaipur",
       price: "Starting at ₹2,499",
-      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&q=80"
+      image: "/images/routes/route_jaipur_1775603417492.png"
     },
     {
       title: "Delhi to Agra",
       price: "Starting at ₹1,999",
-      image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80"
+      image: "/images/routes/route_agra_1775603433958.png"
     },
     {
       title: "Mumbai to Pune",
       price: "Starting at ₹1,799",
-      image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&q=80"
+      image: "/images/routes/route_pune_1775603452483.png"
     },
     {
       title: "Bangalore to Mysore",
       price: "Starting at ₹2,199",
-      image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80"
+      image: "/images/routes/route_mysore_1775603470565.png"
     }
   ];
 
@@ -27,7 +27,7 @@ export function PopularRoutes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
           <div>
-            <h2 className="text-4xl font-extrabold text-[#1A1A1A] mb-3 tracking-tight">Popular Routes</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#1A1A1A] mb-3 tracking-tight">Popular Routes</h2>
             <p className="text-slate-600 text-[1.1rem]">The most traveled intercity journeys across India.</p>
           </div>
           <a 

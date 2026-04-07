@@ -29,10 +29,8 @@ export function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="lg:col-span-7 text-center lg:text-left mb-16 lg:mb-0"
           >
-            <h1 className="text-5xl lg:text-5xl xl:text-6xl font-extrabold text-white tracking-tight leading-[1.05] mb-6 drop-shadow-2xl">
-              <span className="block whitespace-nowrap">Ride Anywhere in</span>
-              <span className="block whitespace-nowrap"><span className="text-brand drop-shadow-lg">India</span> with Aarti</span>
-              <span className="block whitespace-nowrap">Taxi.</span>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white tracking-tight leading-[1.1] mb-6 drop-shadow-2xl">
+              Ride Anywhere in <span className="text-brand drop-shadow-lg">India</span> with Aarti Taxi.
             </h1>
             <p className="text-lg lg:text-xl text-slate-200 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
               Experience kinetic elegance with our premium mobility services. From airport transfers to pan-India corporate travel, we define the precision concierge.
@@ -57,14 +55,14 @@ export function Hero() {
             className="lg:col-span-5 relative"
           >
             {/* Premium Glassmorphism Contact CTA */}
-            <div className="backdrop-blur-xl bg-white/95 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)] p-8 lg:p-12 border border-white/60 relative overflow-hidden text-center">
+            <div className="backdrop-blur-xl bg-white/95 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)] p-6 sm:p-8 lg:p-12 border border-white/60 relative overflow-hidden text-center">
               <div className="absolute top-0 right-0 w-32 h-32 bg-brand/20 rounded-full blur-3xl -mr-10 -mt-10"></div>
               <div className="absolute bottom-0 left-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl -ml-10 -mb-10"></div>
               
-              <div className="mx-auto w-16 h-1.5 bg-brand rounded-full mb-8"></div>
+              <div className="mx-auto w-16 h-1.5 bg-brand rounded-full mb-6 sm:mb-8"></div>
               
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#121826] mb-4 relative z-10 tracking-tight">Instant Booking</h2>
-              <p className="text-slate-600 font-medium mb-10 relative z-10 leading-relaxed text-lg">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#121826] mb-4 relative z-10 tracking-tight">Instant Booking</h2>
+              <p className="text-slate-600 font-medium mb-8 sm:mb-10 relative z-10 leading-relaxed text-base sm:text-lg">
                 Skip the forms. Connect with our dispatch team instantly and get your premium ride confirmed in minutes.
               </p>
               

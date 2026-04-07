@@ -6,7 +6,7 @@ export function ServiceHero() {
       <div className="inline-block bg-[#FACC15] text-slate-900 font-extrabold px-4 py-1.5 rounded-full text-[0.7rem] mb-6 uppercase tracking-widest shadow-sm">
         Urban Curator of Indian Roads
       </div>
-      <h1 className="text-5xl lg:text-5xl font-extrabold text-[#1A1A1A] mb-6 max-w-3xl leading-tight tracking-tight">
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1A1A1A] mb-6 max-w-3xl leading-tight tracking-tight">
         Premium Taxi Services Across India
       </h1>
       <p className="text-lg text-slate-600 mb-8 max-w-xl leading-relaxed font-medium">

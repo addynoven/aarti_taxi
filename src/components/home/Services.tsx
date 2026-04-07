@@ -23,7 +23,7 @@ export function Services() {
     {
       title: "Outstation",
       description: "Comfortable and safe intercity rides. Premium cars and verified drivers for your out-of-town journeys.",
-      image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80"
+      image: "/images/service_corporate.png"
     }
   ];
 
@@ -37,7 +37,7 @@ export function Services() {
           transition={{ duration: 0.6 }}
           className="mb-16 max-w-2xl"
         >
-          <h2 className="text-4xl font-bold text-heading mb-4">Our Services</h2>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#1A1A1A] tracking-tight mb-4">Our Services</h2>
           <p className="text-lg text-slate-600">Tailored mobility solutions designed for comfort, reliability, and corporate excellence across India.</p>
         </motion.div>
 

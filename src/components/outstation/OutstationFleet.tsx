@@ -44,7 +44,7 @@ export function OutstationFleet() {
               </a>
             </div>
             <div className="w-full sm:w-[45%] h-64 sm:h-auto rounded-3xl overflow-hidden relative mt-4 sm:mt-0">
-               <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" alt="Innova Crysta" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+               <img src="/images/fleet/innova_crysta_taxi.png" alt="Innova Crysta" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </div>
 
@@ -78,7 +78,7 @@ export function OutstationFleet() {
               </a>
             </div>
             <div className="w-full sm:w-[45%] h-64 sm:h-auto rounded-3xl overflow-hidden relative mt-4 sm:mt-0">
-               <img src="https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80" alt="Tempo Traveller" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+               <img src="/images/fleet/tempo_traveller_taxi.png" alt="Tempo Traveller" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </div>
 

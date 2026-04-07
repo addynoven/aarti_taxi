@@ -56,7 +56,7 @@ export function OutstationHero() {
             <div className="absolute inset-0 bg-[#E8F0F2] rounded-[3rem] transform rotate-3 scale-105 shadow-inner"></div>
             <div className="absolute inset-4 rounded-[2.5rem] overflow-hidden shadow-2xl bg-black transform -rotate-2">
               <img 
-                src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" 
+                src="/images/fleet/innova_crysta_taxi.png" 
                 alt="Outstation SUV" 
                 className="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform hover:scale-105 duration-700"
               />

@@ -5,7 +5,7 @@ export function ServiceOutstation() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32">
       <div className="relative h-[380px] rounded-[2rem] overflow-hidden shadow-md">
-        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" alt="Outstation Travel" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/images/fleet/innova_crysta_taxi.png" alt="Outstation Travel" className="absolute inset-0 w-full h-full object-cover" />
       </div>
       <div>
         <div className="text-[#926F34] font-bold text-xs uppercase tracking-widest mb-3">Our Specialty</div>

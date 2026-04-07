@@ -26,7 +26,7 @@ export function ServiceGrid() {
           </Link>
         </div>
         <div className="absolute right-0 bottom-0 w-2/5 h-[90%] hidden lg:block">
-           <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80" alt="Van" className="absolute inset-0 w-full h-full object-cover object-left-bottom rounded-tl-[3rem]" />
+           <img src="/images/fleet/tempo_traveller_taxi.png" alt="Van" className="absolute inset-0 w-full h-full object-cover object-left-bottom rounded-tl-[3rem]" />
         </div>
       </div>
     </div>

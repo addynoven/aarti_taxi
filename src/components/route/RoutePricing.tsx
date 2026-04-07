@@ -47,7 +47,7 @@ export function RoutePricing() {
             </a>
           </div>
           <div className="h-48 md:h-auto md:w-[45%] relative order-1 md:order-2">
-            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" alt="Prime Sedan" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src="/images/fleet/swift_dzire_taxi.png" alt="Prime Sedan" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           </div>
         </div>
 

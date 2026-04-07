@@ -8,7 +8,7 @@ export function IntercityFeatures() {
           
           <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl h-[500px] border border-slate-100 group">
             <img 
-              src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" 
+              src="/images/fleet/innova_crysta_taxi.png" 
               alt="Premium Car Interior" 
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

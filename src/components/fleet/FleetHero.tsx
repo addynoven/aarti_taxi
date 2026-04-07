@@ -20,7 +20,7 @@ export function FleetHero() {
 
           <div className="relative w-full h-[350px] md:h-[450px] rounded-3xl overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" 
+              src="/images/fleet/innova_crysta_taxi.png" 
               alt="Highway SUV" 
               className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
             />

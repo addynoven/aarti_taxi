@@ -6,9 +6,9 @@ export function AboutStory() {
         <div className="lg:col-span-5 relative">
           <div className="relative h-[550px] rounded-[1.5rem] overflow-hidden shadow-sm">
             <img 
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80" 
+              src="/images/about/founder.png" 
               alt="Aarshyam Mishra" 
-              className="absolute inset-0 w-full h-full object-cover grayscale"
+              className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
           {/* Quote floating card */}

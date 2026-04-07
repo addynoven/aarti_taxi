@@ -33,11 +33,7 @@ export function AirportFleet() {
             </div>
             
             <div className="md:w-1/2 relative h-64 md:h-full">
-              <img 
-                src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80" 
-                alt="Executive Sedan" 
-                className="absolute inset-0 w-full h-full object-cover"
-              />
+              <img src="/images/fleet/swift_dzire_taxi.png" alt="Dzire" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </div>
 
@@ -64,9 +60,9 @@ export function AirportFleet() {
             
             <div className="md:w-1/2 relative h-64 md:h-full">
               <img 
-                src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" 
+                src="/images/fleet/innova_crysta_taxi.png" 
                 alt="Spacious SUV" 
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
           </div>

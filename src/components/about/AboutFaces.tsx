@@ -13,7 +13,7 @@ export function AboutFaces() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="relative rounded-[1.5rem] overflow-hidden group shadow-sm bg-slate-100 flex flex-col h-[400px]">
           <div className="relative flex-grow overflow-hidden">
-             <img src="https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80" alt="Driver" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+             <img src="/images/fleet/swift_dzire_taxi.png" alt="Driver" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           </div>
           <div className="bg-slate-100 p-6 z-10">
             <div className="flex items-center gap-1 text-[0.65rem] font-black text-green-700 uppercase tracking-widest mb-1">
@@ -25,7 +25,7 @@ export function AboutFaces() {
 
         <div className="relative rounded-[1.5rem] overflow-hidden group shadow-sm bg-slate-100 flex flex-col h-[400px]">
           <div className="relative flex-grow overflow-hidden">
-             <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" alt="Clean Fleet" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+             <img src="/images/fleet/innova_crysta_taxi.png" alt="Clean Fleet" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           </div>
           <div className="bg-slate-100 p-6 z-10">
             <div className="flex items-center gap-1 text-[0.65rem] font-black text-green-700 uppercase tracking-widest mb-1">
@@ -37,7 +37,7 @@ export function AboutFaces() {
 
         <div className="relative rounded-[1.5rem] overflow-hidden group shadow-sm bg-slate-100 flex flex-col h-[400px]">
           <div className="relative flex-grow overflow-hidden">
-             <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80" alt="Family" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+             <img src="/images/fleet/tempo_traveller_taxi.png" alt="Family" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           </div>
           <div className="bg-slate-100 p-6 z-10">
             <div className="flex items-center gap-1 text-[0.65rem] font-black text-green-700 uppercase tracking-widest mb-1">

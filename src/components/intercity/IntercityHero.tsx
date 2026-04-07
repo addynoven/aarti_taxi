@@ -8,7 +8,7 @@ export function IntercityHero() {
       {/* Immersive Hero Section */}
       <div className="relative pt-32 pb-40 lg:pt-48 lg:pb-48 bg-slate-900 border-b-8 border-[#FACC15]">
         <img 
-          src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80" 
+          src="/images/fleet/innova_crysta_taxi.png" 
           alt="Outstation Taxi" 
           className="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-overlay"
         />

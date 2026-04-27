@@ -1,5 +1,7 @@
+"use client";
 import { Shield } from "lucide-react";
 import Link from "next/link";
+import { reportConversion } from "@/lib/gtag";
 
 export function OutstationHero() {
   return (
@@ -21,8 +23,9 @@ export function OutstationHero() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-20 lg:mb-24">
-              <a 
+              <a
                 href="tel:+917838747009"
+                onClick={reportConversion}
                 className="w-full sm:w-auto inline-flex justify-center flex-shrink-0 bg-[#A17A36] text-white hover:bg-[#8B692F] font-bold py-3.5 px-8 rounded-full transition-all duration-200 ease-in-out shadow-sm"
               >
                 Call to Book

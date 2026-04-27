@@ -37,6 +37,24 @@ export default function RootLayout({
             `,
           }}
         />
+        <Script
+          id="gtag-conversion"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              function gtag_report_conversion(url) {
+                var callback = function () {
+                  if (typeof(url) != 'undefined') { window.location = url; }
+                };
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-18108900085/oHbZCLfvvKIcEPXF_7pD',
+                  'event_callback': callback
+                });
+                return false;
+              }
+            `,
+          }}
+        />
       </head>
       <body className={`${inter.className} min-h-full flex flex-col font-sans text-slate-900 bg-slate-50 relative`}>
         {children}

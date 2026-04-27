@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { reportConversion } from "@/lib/gtag";
 import { Phone, Menu, X } from "lucide-react";
 
 export function Nav() {
@@ -46,7 +47,7 @@ export function Nav() {
           </div>
 
           <div className="hidden md:flex items-center">
-            <a href="tel:+917838747009" className="bg-[#FACC15] hover:bg-[#EAB308] text-slate-900 font-bold py-2.5 px-6 rounded-full transition-all duration-200 ease-in-out flex items-center gap-2">
+            <a href="tel:+917838747009" onClick={reportConversion} className="bg-[#FACC15] hover:bg-[#EAB308] text-slate-900 font-bold py-2.5 px-6 rounded-full transition-all duration-200 ease-in-out flex items-center gap-2">
               <Phone className="w-4 h-4" />
               Call Now
             </a>
@@ -54,7 +55,7 @@ export function Nav() {
 
           {/* Mobile Navigation Toggle */}
           <div className="md:hidden flex items-center gap-4">
-            <a href="tel:+917838747009" className="bg-[#FACC15] text-slate-900 font-bold py-2 px-4 rounded-full flex items-center gap-2 text-sm">
+            <a href="tel:+917838747009" onClick={reportConversion} className="bg-[#FACC15] text-slate-900 font-bold py-2 px-4 rounded-full flex items-center gap-2 text-sm">
               <Phone className="w-4 h-4" />
               Call
             </a>

@@ -3,6 +3,7 @@
 import { MessageCircle, PhoneCall } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { reportConversion } from "@/lib/gtag";
 
 export function Hero() {
   return (
@@ -67,10 +68,11 @@ export function Hero() {
               </p>
               
               <div className="space-y-4 relative z-10">
-                <a 
-                  href="https://wa.me/917838747009?text=Hi!%20I%20would%20like%20to%20book%20a%20taxi." 
-                  target="_blank" 
+                <a
+                  href="https://wa.me/917838747009?text=Hi!%20I%20would%20like%20to%20book%20a%20taxi."
+                  target="_blank"
                   rel="noopener noreferrer"
+                  onClick={reportConversion}
                   style={{ backgroundColor: '#25D366' }}
                   className="w-full flex items-center justify-center gap-3 text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-emerald-500/30 transition-all duration-300 text-lg transform hover:-translate-y-1 hover:brightness-105"
                 >
@@ -78,8 +80,9 @@ export function Hero() {
                   Chat on WhatsApp
                 </a>
 
-                <a 
-                  href="tel:+917838747009" 
+                <a
+                  href="tel:+917838747009"
+                  onClick={reportConversion}
                   className="w-full flex items-center justify-center gap-3 bg-white hover:bg-slate-50 text-[#121826] border-2 border-slate-200 font-bold py-4 px-8 rounded-xl shadow-sm transition-all duration-300 text-lg transform hover:-translate-y-1"
                 >
                   <PhoneCall className="w-6 h-6 text-brand" />

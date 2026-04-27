@@ -1,4 +1,6 @@
+"use client";
 import { Phone, MessageCircle, ShieldCheck } from "lucide-react";
+import { reportConversion } from "@/lib/gtag";
 
 export function ContactHero() {
   return (
@@ -13,10 +15,10 @@ export function ContactHero() {
         Your urban concierge is just a message away. Whether it's a cross-city journey or a quick airport run, we've got you covered.
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
-        <a href="tel:+917838747009" className="inline-flex justify-center items-center gap-2 bg-[#FACC15] hover:bg-[#EAB308] text-slate-900 font-bold py-3.5 px-8 rounded-full transition-all duration-200 ease-in-out shadow-sm text-sm">
+        <a href="tel:+917838747009" onClick={reportConversion} className="inline-flex justify-center items-center gap-2 bg-[#FACC15] hover:bg-[#EAB308] text-slate-900 font-bold py-3.5 px-8 rounded-full transition-all duration-200 ease-in-out shadow-sm text-sm">
           <Phone className="w-4 h-4" /> Click to Call
         </a>
-        <a href="https://wa.me/917838747009" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center gap-2 bg-[#00A859] hover:bg-green-700 text-white font-bold py-3.5 px-8 rounded-full transition-all duration-200 ease-in-out shadow-sm text-sm">
+        <a href="https://wa.me/917838747009" target="_blank" rel="noopener noreferrer" onClick={reportConversion} className="inline-flex justify-center items-center gap-2 bg-[#00A859] hover:bg-green-700 text-white font-bold py-3.5 px-8 rounded-full transition-all duration-200 ease-in-out shadow-sm text-sm">
           <MessageCircle className="w-4 h-4" /> WhatsApp Now
         </a>
       </div>

@@ -1,4 +1,6 @@
+"use client";
 import { Phone, MessageCircle } from "lucide-react";
+import { reportConversion } from "@/lib/gtag";
 
 export function IntercityCTA() {
   const waMsg = encodeURIComponent("Hi Aarti Taxi, I want to book an outstation ride.");
@@ -19,6 +21,7 @@ export function IntercityCTA() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="tel:+917838747009"
+            onClick={reportConversion}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#CA8A04] text-white hover:bg-[#A16207] font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:-translate-y-1"
           >
             <Phone className="w-5 h-5 fill-white shrink-0" />
@@ -29,7 +32,8 @@ export function IntercityCTA() {
             href={`https://wa.me/917838747009?text=${waMsg}`}
             target="_blank"
             rel="noopener noreferrer"
-             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#00A859] text-white hover:bg-green-700 font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:-translate-y-1"
+            onClick={reportConversion}
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#00A859] text-white hover:bg-green-700 font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:-translate-y-1"
           >
             <MessageCircle className="w-5 h-5 shrink-0" />
             <span>WhatsApp Us</span>

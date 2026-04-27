@@ -1,4 +1,6 @@
+"use client";
 import { Phone } from "lucide-react";
+import { reportConversion } from "@/lib/gtag";
 
 export function FleetCTA() {
   return (
@@ -18,7 +20,8 @@ export function FleetCTA() {
           
           <a
             href="tel:+917838747009"
-             className="inline-flex items-center gap-3 bg-[#713F12] text-white hover:bg-[#422006] font-bold py-4 px-8 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl relative z-10 transform hover:-translate-y-1"
+            onClick={reportConversion}
+            className="inline-flex items-center gap-3 bg-[#713F12] text-white hover:bg-[#422006] font-bold py-4 px-8 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl relative z-10 transform hover:-translate-y-1"
           >
             <Phone className="w-5 h-5 fill-white shrink-0" />
             <span>Call us now</span>

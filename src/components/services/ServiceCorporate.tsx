@@ -1,3 +1,6 @@
+"use client";
+import { reportConversion } from "@/lib/gtag";
+
 export function ServiceCorporate() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center bg-white rounded-[2.5rem] p-4 pr-12 shadow-sm border border-slate-100">
@@ -9,7 +12,7 @@ export function ServiceCorporate() {
         <p className="text-slate-600 text-[1rem] font-medium mb-8 leading-relaxed max-w-md">
           Professional drivers and premium sedans for business professionals and executives who value privacy and punctuality.
         </p>
-        <a href="tel:+917838747009" className="inline-flex items-center justify-center bg-[#1A1A1A] text-white font-bold px-7 py-3 rounded-full hover:bg-black transition-colors shadow-sm text-sm">
+        <a href="tel:+917838747009" onClick={reportConversion} className="inline-flex items-center justify-center bg-[#1A1A1A] text-white font-bold px-7 py-3 rounded-full hover:bg-black transition-colors shadow-sm text-sm">
           Inquire for Business
         </a>
       </div>

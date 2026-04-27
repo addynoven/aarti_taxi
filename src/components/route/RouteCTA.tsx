@@ -1,4 +1,6 @@
+"use client";
 import { Phone, MessageCircle } from "lucide-react";
+import { reportConversion } from "@/lib/gtag";
 
 export function RouteCTA() {
   const whatsappMessage = encodeURIComponent("Hi, I want to book a taxi from Delhi to Jaipur.");
@@ -18,16 +20,18 @@ export function RouteCTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <a 
-              href="tel:+917838747009" 
+            <a
+              href="tel:+917838747009"
+              onClick={reportConversion}
               className="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-[#FACC15] text-[#1A1A1A] font-bold px-8 py-3.5 rounded-full hover:bg-[#EAB308] transition-colors shadow-sm text-sm"
             >
               <Phone className="w-4 h-4" /> Call for Booking
             </a>
-            <a 
+            <a
               href={`https://wa.me/917838747009?text=${whatsappMessage}`}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={reportConversion}
               className="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-[#00A859] text-white font-bold px-8 py-3.5 rounded-full hover:bg-green-700 transition-colors shadow-sm text-sm"
             >
               <MessageCircle className="w-4 h-4" /> WhatsApp Us

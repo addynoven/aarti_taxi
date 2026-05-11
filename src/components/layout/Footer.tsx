@@ -34,7 +34,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <h3 className="font-extrabold text-[#1A1A1A] text-sm mb-6">Support</h3>
             <ul className="space-y-4">
-              <li><Link href="#" className="text-slate-500 hover:text-[#CA8A04] transition-colors text-xs font-bold">Terms</Link></li>
+              <li><Link href="/terms" className="text-slate-500 hover:text-[#CA8A04] transition-colors text-xs font-bold">Terms</Link></li>
               <li><Link href="#" className="text-slate-500 hover:text-[#CA8A04] transition-colors text-xs font-bold">Privacy</Link></li>
               <li><Link href="#" className="text-slate-500 hover:text-[#CA8A04] transition-colors text-xs font-bold">Safety</Link></li>
               <li><Link href="#" className="text-slate-500 hover:text-[#CA8A04] transition-colors text-xs font-bold">Driver Partner</Link></li>
